@@ -1,0 +1,51 @@
+---
+title: "Estudo para definir a estrutura do pacote"
+format: html
+---
+
+## Requisitos
+
++ modular
+    deve facilitar a substituição de seus componentes
++ OOP/Funcional
+    tenho preferência por código funcional mas python parece melhor desenhado para OOP
++ integrado com GYM/open-ai
++ avaliar os fenótipos em paralelo
+
+
+## elementos
+
++ Darwin (orquestrador)
++ População
+    + especiação
++ Reprodução
+    + genética
+        + genoma
+        + gene
+            + neuron
+            + link/connection
++ rede neural(fenótipo)
+    + feedforward
+    + recursive
++ Reporter
+
+
+## fases da evolução
+
++ nova geração
+    + elimina indivíduos
+    + novos indivíduos
+    + especiação
++ update fitness
+    + gerar neuro network
+    + test fitness
+
+## assinaturas
+
+```python
+def evolve(population: , config):
+    pass
+
+```
+
+
